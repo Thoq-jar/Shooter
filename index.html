@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPS Online</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FPS Online</h1>
+        <p>Do you want to enter the game? | Made by Tristan</p>
+        <div class="buttons">
+            <button onclick="redirectToGame()">Yes</button>
+            <button onclick="closePage()">No</button>
+        </div>
+    </div>
+
+    <div class="dud-screen">
+    <div class="loader"></div>
+    <p></p>
+    </div>
+
+    <div class="redirecting-screen">
+        <div class="loader"></div>
+        <p>Redirecting...</p>
+    </div>
+
+    <div class="bootstrap-screen">
+        <div class="loader"></div>
+        <p>Loading Bootstrap...</p>
+    </div>
+
+    <div class="data-screen">
+        <div class="loader"></div>
+        <p>Loading Data...</p>
+    </div>
+
+    <div class="webgl-screen">
+        <div class="loader"></div>
+        <p>Initializing WebGL...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
